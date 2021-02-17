@@ -1,16 +1,20 @@
-> 项目地址：https://github.com/jrainlau/draw-something
+> 项目地址：https://github.com/Iceprism/you-draw-my-guess  
+> 项目改自：https://github.com/jrainlau/draw-something  
 ## 下载&运行
 
 ```
-git clone git@github.com:jrainlau/draw-something.git
+git clone git@github.com:Iceprism/you-draw-my-guess.git
 
-npm install
+记得先安装node.js
 
-node ws-server.js // 开启websocket服务器
+在当前项目目录命令行中进行下面的命令：
+npm install ws@1.1.1
 
-npm run dev  // 运行客户端程序
+node ws-server.js // 开启websocket服务器（开一个新的命令行运行）
 
-然后浏览器打开localhost:8080即可
+npm run dev  // 运行客户端程序（再开一个新的命令行运行）
+
+然后浏览器打开localhost:4533即可（因为4533和4545端口没有被限制运营商限制）
 ```
 
 > ### 效果预览
